@@ -1,7 +1,7 @@
 import React from 'react';
 
 function SearchBar({ onChange }) {
-  const handleChange = (e) => {
+  const handleSearch = (e) => {
     onChange(e.target.value);
   };
 
@@ -10,7 +10,7 @@ function SearchBar({ onChange }) {
       <input
         type="text"
         placeholder="Search For Recent transactions..."
-        onChange={handleChange}
+        onChange={handleSearch}
         className="search-input"
       ></input>
     </div>
