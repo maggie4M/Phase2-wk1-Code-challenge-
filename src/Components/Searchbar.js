@@ -9,7 +9,7 @@ function SearchBar({ onChange }) {
     <div className="search-bar">
       <input
         type="text"
-        placeholder="Search transactions..."
+        placeholder="Search For Recent transactions..."
         onChange={handleChange}
         className="search-input"
       ></input>
