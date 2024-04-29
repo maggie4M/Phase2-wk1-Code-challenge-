@@ -1,4 +1,3 @@
-// src/components/SearchBar.js
 import React from 'react';
 
 function SearchBar({ onChange }) {
@@ -13,7 +12,7 @@ function SearchBar({ onChange }) {
         placeholder="Search transactions..."
         onChange={handleChange}
         className="search-input"
-        ></input>
+      ></input>
     </div>
   );
 }

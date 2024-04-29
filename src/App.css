@@ -59,42 +59,25 @@
 .header h1 {
   color: white;
 }
-/* src/components/Form.css */
 .form-container {
   border: 2px solid black;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .transaction-form {
   display: flex;
-  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  font-family: sans-serif;
+  font-family:'Times New Roman';
+  justify-content: space-evenly;
+  font-weight: bolder;
 }
-
-.form-label {
-  margin: 10px;
-  width: 200px;
+.search-bar {
+  margin-bottom: 20px;
 }
-
-.form-input {
-  width: 300px;
-  padding: 8px;
+.search-input {
+  width: 98%;
+  padding: 10px;
+  font-size: 16px;
 }
-
-.form-button {
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.form-button:hover {
-  background-color: #0056b3;
-}
-

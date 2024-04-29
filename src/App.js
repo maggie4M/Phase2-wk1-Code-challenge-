@@ -1,6 +1,5 @@
-import React from 'react';
+import React , {useState} from 'react';
 import './App.css';
-import { useState } from 'react';
 import Header from './Components/Header';
 import Form from './Components/Form';
 import List from './Components/List';
@@ -32,7 +31,7 @@ function App() {
       <Header />
       <Form onSubmit={addTransaction} />
       <SearchBar onChange={setSearchTerm} /> 
-      <List transactions={transactions} />
+      <List transactions={filteredTransactions} />
     </div>
   );
 }
