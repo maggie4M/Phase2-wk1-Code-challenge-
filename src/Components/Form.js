@@ -20,16 +20,16 @@ function Form({ onSubmit }) {
       <form onSubmit={handleSubmit} className="transaction-form">
         <label>
           Date:
-          <input type="text" name="date" value={newTransaction.date} onChange={handleChange} placeholder='DD/MM/YY'/>
+          <input required type="text" name="date" value={newTransaction.date} onChange={handleChange} placeholder='DD/MM/YY'/>
         </label>
         <label>
-          <input type="text" name="category" value={newTransaction.category} onChange={handleChange} placeholder='Category' />
+          <input required type="text" name="category" value={newTransaction.category} onChange={handleChange} placeholder='Category' />
         </label>
         <label>
-          <input type="text" name="description" value={newTransaction.description} onChange={handleChange} placeholder='Description' />
+          <input  required type="text" name="description" value={newTransaction.description} onChange={handleChange} placeholder='Description' />
         </label>
         <label>
-          <input type="text" name="amount" value={newTransaction.amount} onChange={handleChange} placeholder='Amount' />
+          <input required type="text" name="amount" value={newTransaction.amount} onChange={handleChange} placeholder='Amount' />
         </label>
         <button type="submit">Add Transaction</button>
       </form>
